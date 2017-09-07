@@ -1,7 +1,7 @@
 ## Project: Search and Sample Return
-###Objectives:In this work the goal is to make a rover move autonomously in order to map the environment and search dor yellow rocks.
----
+###Objectives: In this work the goal is to make a rover move autonomously in order to map the environment and search dor yellow rocks. Through the images capture by the rover the navigable path, obstacles and collectible rocks are identified and updated to the map according to the rover displacemnt.
 
+---
 
 **The goals / steps of this project are the following:**  
 
@@ -22,8 +22,6 @@
 [//]: # (Image References)
 
 [image1]: ./misc/rover_image.jpg
-[image2]: ./calibration_images/example_grid1.jpg
-[image3]: ./calibration_images/example_rock1.jpg 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -37,7 +35,14 @@ You're reading it!
 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
-Here is an example of how to include an image in your writeup.
+
+The perception starts when the rover capture one image to its map. With this image we shall change its perspective to a top view to construct a map. After defining the grid lines to quantify
+
+[image2]: ./Images_for_writeup/grid.png
+[image3]: ./Images_for_writeup/perspective_navigable.jpg 
+
+These whole procedure is done for each image captured by the rover while moving.
+
 
 ![alt text][image1]
 

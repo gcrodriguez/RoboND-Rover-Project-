@@ -38,8 +38,9 @@ You're reading it!
 
 The perception starts when the rover capture one image to its map. With this image we shall change its perspective to a top view in order to update the world map as the rover moves. After defining grid lines and its dimensions, the cv2 functions are applied in a function to get a perspective view and a binary image of the mask (which will diferentiate the obstacles and navigable terrain).
 
-[image2]: ./Images for writeup/grid.png
-[image3]: ./Images for writeup/perspective_navigable.jpg 
+
+
+
 
 Then the next step is to identify the navigable terrain, obstacles and rocks by color thresholding of the image pixels. Setting a limit of rgb = (160,160,160), the function color_thresh return a binary image which the pixels values above the limit (returning true of the above_thresh) are set to 1, appearing in white. The false values are set to 0 and appears in black. The image below illustrates the result.
 

@@ -1,4 +1,4 @@
-## Project: Search and Sample Return
+ ## Project: Search and Sample Return
 ###Objectives: In this work the goal is to make a rover move autonomously in order to map the environment and search dor yellow rocks. Through the images capture by the rover the navigable path, obstacles and collectible rocks are identified and updated to the map according to the rover displacemnt.
 
 ---
@@ -38,8 +38,8 @@ You're reading it!
 
 The perception starts when the rover capture one image to its map. With this image we shall change its perspective to a top view to construct a map. After defining the grid lines to quantify
 
-[image2]: ./Images_for_writeup/grid.png
-[image3]: ./Images_for_writeup/perspective_navigable.jpg 
+[image2]: ./Images for writeup/grid.png
+[image3]: ./Images for writeup/perspective_navigable.jpg 
 
 These whole procedure is done for each image captured by the rover while moving.
 

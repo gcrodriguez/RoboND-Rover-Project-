@@ -1,5 +1,5 @@
 ## Project: Search and Sample Return
-###Objectives:
+###Objectives:In this work the goal is to make a rover move autonomously in order to map the environment and search dor yellow rocks.
 ---
 
 

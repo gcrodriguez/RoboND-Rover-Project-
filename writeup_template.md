@@ -1,5 +1,5 @@
- ## Project: Search and Sample Return
-###Objectives: In this work the goal is to make a rover move autonomously in order to map the environment and search dor yellow rocks. Through the images capture by the rover the navigable path, obstacles and collectible rocks are identified and updated to the map according to the rover displacemnt.
+## Project: Search and Sample Return
+### Objectives: In this work the goal is to make a rover move autonomously in order to map the environment and search dor yellow rocks. Through the images capture by the rover the navigable path, obstacles and collectible rocks are identified and updated to the map according to the rover displacemnt.
 
 ---
 

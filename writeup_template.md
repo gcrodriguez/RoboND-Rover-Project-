@@ -61,13 +61,6 @@ These whole procedure is done for each image captured by the rover while moving.
 
 The next part of the work is to apply these steps defined in process_image in the perception_step. After that, the decision_step is changed to make the rover autonomous. 
 
-
-![alt text][image1]
-
-#### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
-And another! 
-
-![alt text][image2]
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.

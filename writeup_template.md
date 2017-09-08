@@ -67,17 +67,16 @@ The next part of the work is to apply these steps defined in process_image in th
 
 In the perception step (perception.py) the same procedure stablished in process_image is implemented. The only additional step made was the condition to add the rocks position in the world map (after identifying its pixels by color thresh). 
 
-In the decision step
+At the moment, the functions introduced to make the rover go to the rocks and pick them were not working. So they were removed from the percepetion and decision steps keeping the rover only moving and indetifying navigable paths, obstacles and rocks.
 
+I pretend to return in the future at this part and make the rover pick the rocks and leave them at the initial point, as suggested in the challenge (and also finish the other challenges).
 
 #### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
 
-**Note: running the simulator with different choices of resolution and graphics quality may produce different results, particularly on different machines!  Make a note of your simulator settings (resolution and graphics quality set on launch) and frames per second (FPS output to terminal by `drive_rover.py`) in your writeup when you submit the project so your reviewer can reproduce your results.**
-
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The best result obtained for rover simulation identified three rocks and mapped 76.6% of the map with a fidelity of 62.7%. Then as happenned in all other simulations the program 'crashed', making the rover to gool along a circular parth or turning continuously in its axis.
 
 
 
-![alt text][image3]
+
 
 

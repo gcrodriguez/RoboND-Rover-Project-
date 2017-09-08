@@ -38,7 +38,7 @@ You're reading it!
 
 The perception starts when the rover capture one image to its map. With this image we shall change its perspective to a top view in order to update the world map as the rover moves. After defining grid lines and its dimensions, the cv2 functions are applied in a function to get a perspective view and a binary image of the mask (which will diferentiate the obstacles and navigable terrain).
 
-![image2] ./Images_for_writeup/grid.png
+![image2] (https://github.com/gcrodriguez/RoboND-Rover-Project-/tree/master/Images_for_writeup/grid.png)
 
 
 

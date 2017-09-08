@@ -65,6 +65,10 @@ The next part of the work is to apply these steps defined in process_image in th
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
 
+In the perception step (perception.py) the same procedure stablished in process_image is implemented. The only additional step made was the condition to add the rocks position in the world map (after identifying its pixels by color thresh). 
+
+In the decision step
+
 
 #### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
 

@@ -21,7 +21,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./misc/rover_image.jpg
+![image1](https://github.com/udacity/RoboND-Rover-Project/blob/master/misc/rover_image.jpg)
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  

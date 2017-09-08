@@ -76,6 +76,7 @@ I pretend to return in the future at this part and make the rover pick the rocks
 The best result obtained for rover simulation identified three rocks and mapped 76.6% of the map with a fidelity of 62.7%. Then as happenned in all other simulations the program 'crashed', making the rover to gool along a circular parth or turning continuously in its axis.
 
 
+![image7](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/autonomous.png)
 
 
 

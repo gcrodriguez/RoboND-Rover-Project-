@@ -40,22 +40,23 @@ The perception starts when the rover capture one image to its map. With this ima
 
 ![image2](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/Images_for_writeup/grid.png)
 
+![image3](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/Images_for_writeup/perspective_navigable.png)
 
 Then the next step is to identify the navigable terrain, obstacles and rocks by color thresholding of the image pixels. Setting a limit of rgb = (160,160,160), the function color_thresh return a binary image which the pixels values above the limit (returning true of the above_thresh) are set to 1, appearing in white. The false values are set to 0 and appears in black. The image below illustrates the result.
 
-IMAGEM
+![image4](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/Images_for_writeup/color_thresh.png)
 
 The same strategy is used to identify rocks. As they have yellow color, the limit used was rgb = (110, 110, 50). But this time the image pixels values of the red and green layers shall be above limit and the correspondents to the blue layer below the limit. The image bellow shows the results.
 
-IMAGEM
+![image5](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/Images_for_writeup/rock_indetify.png)
 
 At this part, it is possible to update the map in different colors for navigable terrain, obstacles and rocks. But in order to update in almost real time and with the correct orientation, the image shall be repositioned to roover coordinate system, identify this system in worls map and also indicated the navigable direction. This is achived by applying rotations and translations of the pixels. The results obtained can be observed below.
 
-IMAGEM
-
-
+![image6](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/Images_for_writeup/direction.png)
 
 These whole procedure is done for each image captured by the rover while moving. Then the preliminary video recorded showing the rover in action (manually) is shown below.
+
+![Video1](https://github.com/gcrodriguez/RoboND-Rover-Project-/blob/master/test_mapping.mp4)
 
 
 The next part of the work is to apply these steps defined in process_image in the perception_step. After that, the decision_step is changed to make the rover autonomous. 
